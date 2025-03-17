@@ -59,6 +59,19 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Sales performance by time, city, and payment method.
      - Analyzing peak sales periods and customer buying patterns.
      - Profit margin analysis by branch and category.
+     - Here are the questions
+     Q.1 Find different payment method and number of transactions, number of qty sold
+       ```sql
+ SELECT 
+	 payment_method,
+	 COUNT(*) as no_payments,
+	 SUM(quantity) as no_qty_sold
+FROM walmart
+GROUP BY payment_method
+```
+      
+       ...
+
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
 ### 10. Project Publishing and Documentation
