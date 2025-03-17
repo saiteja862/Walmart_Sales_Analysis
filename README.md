@@ -1,7 +1,6 @@
-# Walmart_Sales_Analysis: End-to-End SQL + Python Project 
+# Walmart Sales Data Analysis: End-to-End SQL + Python Project P-9
 
 ## Project Overview
-
 
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
@@ -59,19 +58,6 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Sales performance by time, city, and payment method.
      - Analyzing peak sales periods and customer buying patterns.
      - Profit margin analysis by branch and category.
-     - Here are the questions
-     Q.1 Find different payment method and number of transactions, number of qty sold
-       ```sql
- SELECT 
-	 payment_method,
-	 COUNT(*) as no_payments,
-	 SUM(quantity) as no_qty_sold
-FROM walmart
-GROUP BY payment_method
-```
-      
-       ...
-
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
 ### 10. Project Publishing and Documentation
